@@ -1,5 +1,5 @@
 class SongsController < ApplicationController
-  before_action :require_login
+  before_action :require_login, except: [:index, :show]
   def index
     @songs = Song.order(created_at: :desc)
   end

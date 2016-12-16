@@ -23,4 +23,5 @@ Things you may want to cover:
 
 * ...
 
-Deployment IP: 35.165.248.28
+Deployment IP: 35.165.248.28/main
+demo video: https://youtu.be/k87C1Tt6Ts4

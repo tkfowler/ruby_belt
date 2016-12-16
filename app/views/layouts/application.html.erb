@@ -18,6 +18,8 @@
       <p></p>
     <% elsif current_user && current_page?(action:"show") %>
       <a href='/songs'>Dashboard</a>
+    <% elsif !current_user && !current_page?('/main') %>
+      <a href='/main'>Login/Register</a>
     <% end %>
     <% if current_user %>
       <a href= "/logout" data-method='delete'>Logout</a>
